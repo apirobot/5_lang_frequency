@@ -1,7 +1,18 @@
 # Frequency Analysis of Words
 
-[TODO. There will be project description]
+Script processes your text file and shows most common words.
 
-# Project Goals
+## Usage
 
-The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
+```
+usage: lang_frequency.py [-h] [--num NUM] DIR
+
+Frequency Analysis of Words
+
+positional arguments:
+  DIR         path to the text file
+
+optional arguments:
+  -h, --help  show this help message and exit
+  --num NUM   number of most common words to display
+```
